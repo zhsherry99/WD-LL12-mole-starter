@@ -111,6 +111,7 @@ let gameInterval = null;
 // Start the game: reset score and begin popping moles
 function startGame() {
   // Reset score and update UI
+  console.log("Game started");
   score = 0;
   updateScoreDisplay();
 
